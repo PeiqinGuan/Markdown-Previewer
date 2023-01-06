@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background: rgb(226, 184, 136);
+}
+
+#previewWrapper {
+    margin-left: 20px;
+    width: 45vw;
+}
+
+textarea {
+    background: rgb(245, 216, 183);
+    height: 80vh;
+    padding: 20px;
+    width: 45vw;
+    outline: none;
+}
+
+#preview {
+    max-height: 80vh;
+    overflow: auto;
+    background: rgb(245, 216, 183);
+    padding: 20px;
+}
+
+.toolbar{
+    background: rgb(226, 124, 8);
+    border: 2px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    padding: 5px
+}
